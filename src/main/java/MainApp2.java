@@ -17,9 +17,15 @@ public class MainApp2 {
             System.out.println("false");
 
         }
-
+        // reszta z dzielenia
         System.out.println(10 % 5);
         System.out.println(10 % 3);
+
+        if (9 % 2 == 0) {
+            System.out.println("liczba jest parzysta");
+        } else {
+            System.out.println("nie jest liczbą parzystą");
+        }
 
     }
 }

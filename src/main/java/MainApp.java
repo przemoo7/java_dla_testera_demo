@@ -23,13 +23,13 @@ public class MainApp {
 
     //        operatory logiczne
     //        || - lub
-        System.out.println(numOne > numTwo || numOne == 1 );
-        System.out.println(numOne > numTwo || numOne != 1 );
-        System.out.println(numOne < numTwo || numOne != 1 );
+        System.out.println(numOne > numTwo || numOne == 1 );  // falsz || prawda -> prawda
+        System.out.println(numOne > numTwo || numOne != 1 );  // falsz || falsz -> falsz
+        System.out.println(numOne < numTwo || numOne != 1 );  //  prawda || nie jest sprawdzana -> prawda
     //     && - i
-        System.out.println(numOne < numTwo && numOne == 1 );
-        System.out.println(numOne > numTwo && numOne == 1 );
-        System.out.println(numOne > numTwo && numOne != 1 );
+        System.out.println(numOne < numTwo && numOne == 1 );  // prawda i prawda -> prawda
+        System.out.println(numOne > numTwo && numOne == 1 );  // falsz i prawda -> prawda
+        System.out.println(numOne > numTwo && numOne != 1 );  // falsz i falsz -> falsz
 
     }
 }

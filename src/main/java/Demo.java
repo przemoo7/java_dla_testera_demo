@@ -8,6 +8,7 @@ public class Demo {
         int i;
         long l;
 
+        // jakie pudełko do przetrzymywania danych
         int number = 10;
         System.out.println(number);
 
@@ -19,5 +20,8 @@ public class Demo {
 
         char someChar = 's';
         System.out.println(someChar);
+
+        boolean trueText = true;
+        System.out.println(trueText);
     }
 }

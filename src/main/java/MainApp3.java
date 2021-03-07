@@ -19,6 +19,13 @@ public class MainApp3 {
         boolean userAdult = przemek.isUserAdult();
         System.out.println("Czy Przemek jest dorosły: " + userAdult);
 
+        przemek.greetings("Marcin");
+        przemek.greetings("Zuzia");
+        przemek.howOldAreYou("Przemek", 17);
+
+        int przemekAgePlus10 = przemek.yourAgePlus10(17);
+        System.out.println(przemekAgePlus10);
+
         User tomek = new User();
         tomek.firstName = "Tomek";
         tomek.lastName = "Testowy";
@@ -29,6 +36,8 @@ public class MainApp3 {
         tomek.getAllInfo();
 
         boolean isTomekAdult = tomek.isUserAdult();
-        System.out.println("Czy Tomek jest dorosły: " + isTomekAdult );
+        System.out.println("Czy Tomek jest dorosły: " + isTomekAdult);
+
+        System.out.println(tomek.yourAgePlus10(tomek.age));
     }
 }
